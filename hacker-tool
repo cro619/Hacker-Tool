@@ -1,0 +1,12 @@
+#!/data/data/com.termux/files/usr/bin/bash
+clear
+figlet Hacker-Tool |lolcat
+echo "Author - Aditya" |lolcat
+echo "################" |lolcat
+echo "github - https://github.com/Adityahacker22" |lolcat
+echo "##########################################" |lolcat
+echo "My Youtube channel - Technical Dangwal" |lolcat
+echo "#####################################" |lolcat
+echo "DON'T FORGOT TO SUBCRIBE MY YOUTUBE CHANNEL" |lolcat
+python hacker-tool.py |lolcat
+
