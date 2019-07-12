@@ -1,0 +1,8 @@
+#!/data/data/com.termux/files/usr/bin
+apt upgrade && apt update
+apt install git
+git clone https://github.com/404rgr/spamerCALL
+apt install python
+cd spamerCALL
+pip install -r requirements.txt
+python spamercall.py

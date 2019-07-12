@@ -1,0 +1,7 @@
+#!/data/data/com.termux/files/usr/bin/bash
+apt update && apt upgrade
+cd $HOME
+curl -LO https://raw.githubusercontent.com/Hax4us/Nethunter-In-Termux/master/kalinethunter
+chmod +x kalinethunter
+startkali
+apt-key adv --keyserver hkp://keys.gnupg.net --recv-keys 7D8D0BF6
