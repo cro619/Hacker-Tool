@@ -10,4 +10,5 @@ Hacker-Tool is an installation tool for installing tools. this tool makes it eas
 `git clone https://github.com/Adityahacker22/Hacker-Tool.git`
 
 `./hacker-tool`
+
 for more information visit to my Youtube Channel Technical Dangwal
