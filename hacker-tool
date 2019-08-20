@@ -9,6 +9,13 @@ echo "My Youtube channel - Technical Dangwal" |lolcat
 echo "#####################################" |lolcat
 echo "DON'T FORGOT TO SUBCRIBE MY YOUTUBE CHANNEL" |lolcat
 echo "############################################" |lolcat
-echo "Do not copy or try to modify the codes"
+echo "Do not copy or try to modify the codes" |lolcat
+echo "######################################" |lolcat
+echo ""
+echo "########################################"
+echo "---------------LIST TOOLS-------------"
+echo "########################################"
+echo ""
+echo ""
 python hacker-tool.py |lolcat
 
