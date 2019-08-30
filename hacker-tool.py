@@ -48,6 +48,8 @@ def main():
     print("##########")
     print("23.saycheese")
     print("###########")
+    print("24.HiddenEye")
+    print("###############")
     print("00.Back")
     print("########")
     a = int(input("choose:-"))
@@ -272,7 +274,19 @@ def main():
         os.system("git clone https://github.com/thelinuxchoice/saycheese.git")
         os.system("mv saycheese /data/data/com.termux/files/home")
         print("GO TO TERMUX HOME DIRECTORY AND PASTE THE COMMANDS \n cd saycheese && bash saycheese.sh")
-    elif a==00:
+         cd saycheese && bash saycheese.sh")
+    elif a==24:
+        os.system("apt-get update -y ")
+        os.system("apt-get upgrade -y")
+        os.system("apt-get install python -y")
+        os.system("apt-get install curl -y")
+        os.system("apt-get install git -y")
+        os.system("apt-get install python2 -y")
+        os.system("apt-get install php -y")
+        os.system("git clone git clone -b Termux-Support-Branch https://github.com/DarkSecDevelopers/HiddenEye.git")
+        os.system("mv HiddenEye /data/data/com.termux/files/home")
+        print("GO TO TERMUX HOME DIRECTORY AND PASTE THE COMMANDS \n cd HiddenEye && chmod 777 HiddenEye.py && python3 HiddenEye.py")
+    elif:
          os.system("./hacker-tool")
     else:
          print("invalid input")
