@@ -285,7 +285,7 @@ def main():
         os.system("git clone git clone -b Termux-Support-Branch https://github.com/DarkSecDevelopers/HiddenEye.git")
         os.system("mv HiddenEye /data/data/com.termux/files/home")
         print("GO TO TERMUX HOME DIRECTORY AND PASTE THE COMMANDS \n cd HiddenEye && chmod 777 HiddenEye.py && python3 HiddenEye.py")
-    elif:
+    elif a==00:
          os.system("./hacker-tool")
     else:
          print("invalid input")
