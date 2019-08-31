@@ -274,7 +274,6 @@ def main():
         os.system("git clone https://github.com/thelinuxchoice/saycheese.git")
         os.system("mv saycheese /data/data/com.termux/files/home")
         print("GO TO TERMUX HOME DIRECTORY AND PASTE THE COMMANDS \n cd saycheese && bash saycheese.sh")
-         cd saycheese && bash saycheese.sh")
     elif a==24:
         os.system("apt-get update -y ")
         os.system("apt-get upgrade -y")
